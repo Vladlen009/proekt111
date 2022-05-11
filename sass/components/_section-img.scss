@@ -1,0 +1,26 @@
+.section-image-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-image-item + .section-image-item {
+    margin-left: 30px;
+  }
+  
+  .section-img {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  
+  
+    background-color: var(--background-content);
+    color: var(--main-color);
+  }
+  
+  .section-image-icon{
+    fill: currentColor;
+  }

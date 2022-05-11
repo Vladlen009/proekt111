@@ -1,0 +1,119 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--background-hero);
+  }
+  
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  
+  }
+  
+  .footer-address {
+    margin-right: 70px;
+  }
+  
+  
+  .footer-item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  
+  
+  .footer-link-location {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    color: var(--color-title);
+  
+    margin-bottom: 9px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: var(--color-hover)
+  }
+  
+  }
+  
+  .footer-link-tel {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: var(--color-hover);
+  }
+  }
+
+  .footer-link-mail {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+     &:hover,
+     &:focus {
+       color: var(--color-hover);
+    }
+  }
+  
+  .footer-tel {
+    margin-bottom: 9px;
+  }
+  
+  .footer-socialnetwork {
+    margin-right: auto;
+  }
+  
+  
+  .footer-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+  
+    color: var(--color-title);
+  
+    margin-bottom: 20px;
+  }
+  
+  .footer-network-list {
+    display: flex;
+  
+  }
+  
+  .footer-network-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  
+    background-color: var(--footer-icon);
+    color: var(--color-title);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+     &:hover,
+     &:focus {
+       background-color: var(--color-hover);
+    }
+  }
+  
+  .footer-network-item:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .footer-network-icon {
+    fill: currentColor;
+  }
+  
